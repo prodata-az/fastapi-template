@@ -1,0 +1,8 @@
+services:
+  chat-api:
+    container_name: myapp #Change the name to match your project
+    build:
+      context: .
+    network_mode: "host"
+    restart: "always"
+
